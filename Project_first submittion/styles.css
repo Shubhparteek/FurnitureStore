@@ -1,0 +1,275 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    margin: 0 auto;
+    width: 1420px;
+    height: 100vh;
+    background-color: antiquewhite;
+    /* width:100%;
+	height:100vh; */
+    }
+#mainHeader{
+    padding: 10px 0px;
+    width: 100%;
+    height: 120px;
+    background: #9C9C9C;   
+    /* font-family: Mistral; */
+}
+
+#logo{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 66.3743px;
+    line-height: 66px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+#rightNav{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+nav a:link{
+    margin-right: 30px;
+}
+nav a:first-child{
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #2C2C2C;
+}
+
+nav a:hover{
+  color: rgb(4, 41, 109);
+  font-weight: bold;
+}
+#leftNav{
+    display: inline-block;
+    position: relative;
+    left: 450px;
+
+}
+
+#leftNav img{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    position: relative;
+    top: 12px;
+}
+#content{
+    margin: 0 auto;
+    height: 410px;
+    background: #E4E4E4;
+}
+#contentImage{
+text-align: center;
+}
+#contentImage img{
+    margin: 50px auto;
+    width: 520px;
+    height: 230px;
+    box-shadow: 5px 5px 5px 5px rgb(16, 2, 49);
+    
+}
+#content p{
+   
+    text-align: center;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #4D3737;
+
+}
+#categories{
+    background: #818181;
+    height: 500px;
+}
+#sectionHeader{
+    text-align: center;
+    font-family: 'Square Peg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 95px;
+    color: #FFFFFF;
+}
+#imageContainer{
+    display: inline-block;
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+#imageContainer:first-child{
+    margin-left: 75px;
+}
+#imageContainer img{
+    margin-bottom: 20px;
+    width: 350px;
+    height: 289px;
+
+}
+#imageContainer p{
+    
+    text-align: center;
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.4364px;
+    line-height: 45px;
+    color: rgba(80, 0, 0, 0.6)
+}
+
+footer{
+    background: #D9D9D9;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#copyright{
+    text-align: right;
+}
+
+footer a:link{
+margin-left: 50px;
+}
+
+footer a:link:last-child {
+    margin-right: 100px;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #2C2C2C;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #800404;
+}
+
+/* aout page */
+
+#contentAbout{
+    margin: 0 auto;
+    height: 85vh;
+    background-image: url(img/back.jpg);
+    background-size:cover;
+    background-color: rgba(86, 83, 83, 05) ;
+    background-blend-mode: multiply;
+}
+.aboutHeading,.aboutContent, .helpHeading{
+    color: #D9D9D9;
+}
+.aboutHeading, .helpHeading{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    /* font-style:oblique; */
+    font-family: cursive; 
+}
+.aboutContent{
+    padding: 20px;
+    text-align: center;
+    line-height:2;
+
+}
+.aboutContent span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Help page */
+
+#contentHelp{
+    margin: 0 auto;
+    height: 85vh;
+    background-image: url(img/Bedroom-Set-Furniture.jpg);
+    background-size:cover;
+    background-color: rgba(86, 83, 83, 05) ;
+    background-blend-mode: multiply;
+    
+}
+
+.imageHelpContent img{
+    width: 500px;
+    height: 500px;
+    border: solid #E4E4E4 ;
+    border-radius: 20px;
+    
+}
+
+#helpSubContainer{
+    display: flex;
+    justify-content:flex-start
+}
+.imageHelpContent{
+    margin-left: 50px;
+    margin-top: 20px;
+    align-self: center;
+    
+    /* display: inline-block; */
+}
+.helpForm{
+    /* display: inline-block; */
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: solid #E4E4E4 ;
+    border-radius: 20px;
+    background-color: rgb(156, 156, 156,0.5) ;
+    
+}
+
+.formRows{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.formRows:nth-child(7) {
+    text-align: center;
+}
+
+#customerPhone{
+    margin-left: 15px;
+}
+#customerEmail{
+    margin-left: 35px;
+    width: 200px;
+}
+
+.formRows input[type='text']{
+width: 200px;
+}
+.formRows textarea{
+    width: 200px;
+    resize: none;
+    margin-left: 5px;
+ }
+#prefferdMethod{
+    margin-left: 30px;
+}
+
+input[type='submit'], input[type='reset']{
+    font-size: 20px;
+    background-color: antiquewhite;
+    width: 150px;
+}
+input[type='submit']:active, input[type='reset']:active{
+background-color: #800404;
+}

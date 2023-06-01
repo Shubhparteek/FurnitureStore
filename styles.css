@@ -1,0 +1,391 @@
+*{
+    /* font-family: sans-serif; */
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    margin: 0,auto;
+}
+#mainHeader{
+    padding-top: 15px;
+    width: 100%;
+    height: fit-content;
+    background: #9C9C9C;    
+}
+
+#logo{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 66.3743px;
+    line-height: 66px;
+    text-align: center;
+    color: #2C2C2C;
+    font-family: 'Dancing Script', cursive;
+}
+.nav{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+
+nav a:last-child{
+    margin-right: 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #2C2C2C;
+    margin-right: 30px;
+}
+
+.navbar a:hover{
+  color: rgb(89, 4, 100);
+}
+.navbar .nav-item:hover{
+    color: rgb(89, 4, 100);
+    font-weight: 600;
+}
+
+
+
+
+/* content */
+
+#content{
+    width: 100%;
+    background: #E4E4E4;
+    margin: 0 auto;
+    padding: 10px 0px 5px 0px;
+}
+
+
+#content img{
+    margin: 20px;
+    width:50%;
+    height: 60%;
+    transition: box-shadow .5s, width 0.3s, height 0.3s;
+}
+#content img:hover{
+    box-shadow: 3px 5px 3px 5px rgb(16, 2, 49);
+    width: 52%;
+    height: 62%;
+    border-radius: 2px;
+}
+#content p{
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Passions Conflict', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    color: #4D3737;
+}
+#categories{
+    background: #818181;
+    height:fit-content;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#sectionHeader{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 50px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    padding: 10px 0px 10px 0px ;
+}
+
+#imageContainer img{
+    width: 70%;
+    height: 60%;
+   
+    /* width: 100% \9;
+    height: auto; */
+    transition:box-shadow 0.5s ;
+}
+#products div:last-child img{
+    width: 60%;
+    height: 50%;
+    /* width: 100% \9;
+    height: auto; */
+    transition:box-shadow 0.5s ;
+}
+#imageContainer img:hover{
+    box-shadow: 3px 5px 3px 5px rgb(16, 2, 49);
+    border-radius: 3px;
+}
+#imageContainer p{
+    text-align: center;
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.4364px;
+    line-height: 45px;
+    margin: 0;
+    color: rgba(80, 0, 0, 0.6)
+}
+
+footer{
+    background: #D9D9D9;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+}
+
+#copyright{
+    text-align: right;
+}
+
+footer a:link{
+margin-left: 50px;
+}
+
+footer a:link:last-child {
+    margin-right: 100px;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 200;
+    color: #2C2C2C;
+}
+footer a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #800404;
+}
+
+/* about page */
+
+#contentAbout{
+    margin: 0 auto;
+    height: fit-content;
+    width: 100%;
+    background-image: url(img/back.jpg);
+    background-size:cover;
+    background-color: rgba(86, 83, 83, 05) ;
+    background-blend-mode: multiply;
+    padding: 10px;
+}
+.aboutHeading,.aboutContent, .helpHeading{
+    color: #D9D9D9;
+}
+.aboutHeading, .helpHeading{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.aboutHeading{
+    border-bottom: #e7e7e791 solid;
+}
+.aboutContent{
+    padding: 10px;
+    text-align:justify;
+    line-height:1.5;
+    font-family: 'Play', sans-serif;
+
+}
+.aboutContent span{
+    font-weight: 700;
+    font-size: 30px;
+}
+.visitUs{
+    color: #D9D9D9;
+    border: #E4E4E4 solid 3px;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: left;
+    height: fit-content;
+}
+.visitUs h2{
+    font-family: 'Lobster', cursive;
+}
+.visitUs p{
+    text-align: justify;
+    
+}
+.visitUs .map{
+    border: #800404 solid 5px;
+    border-radius: 25% 10% 10% 5% ;
+    
+}
+
+/* Help page */
+
+#contentHelp{
+    /* display: flex;
+    flex-direction: column;
+    /* align-items: center; 
+    margin: 0 auto;
+    height: fit-content;
+    width: 100%;*/
+    background-image:  url(img/Bedroom-Set-Furniture.jpg);
+    background-size: cover;
+    background-color: rgba(86, 83, 83, 05) ;
+    background-blend-mode: multiply;
+    padding: 20px 20px 50px 20px;
+    box-sizing: border-box; 
+}
+
+.imageHelpContent img{
+    border: solid #E4E4E4 5px ;
+    border-radius: 20px;
+   
+}
+
+
+.helpForm{
+     /* width: 80%;
+    height: 100%;  */
+    align-self: center;
+    border: solid #E4E4E4 5px ;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(156, 156, 156,0.5) ;
+}
+
+/* thanks page */
+#contentThanks{
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #505050;
+
+}
+.thanksHeading{
+    padding:20px 10px 20px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Monda';
+    color: #ff8c8c93;
+    border-bottom: solid 2px black;
+}
+#contentThanks #sectionHeader{
+    font-size: 30px;
+}
+.newCollection{
+padding: 20px;
+}
+.newCollection img{
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: #FFFFFF solid 3px;
+    transition:box-shadow 0.5s ;
+}
+.newCollection img:hover{
+    box-shadow: 5px 7px 5px 7px rgb(16, 2, 49);
+    border-radius: 3px;
+}
+/* signin */
+
+.signIN{
+    width: 100%;
+    background: #E4E4E4;
+    margin: 0 auto;
+    padding: 10px;
+    border: #800404 3px solid;
+}
+/* to make responsive  */
+
+@media(max-width:700px){
+    #logo{
+        font-weight: 200;
+        font-size: 45px;
+        line-height: 25px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+        color: #2C2C2C;
+    }
+
+    
+    #content img{
+        margin-top: 2px;
+        width:80%;
+        height: 70%;
+        transition: box-shadow .5s, width 0.3s, height 0.3s;
+    }
+    #content p{
+        margin-top: 0;
+        text-align: center;
+        font-family: 'Passions Conflict', cursive;
+        font-size: 25px;
+        font-weight: 500;
+        color: #4D3737;
+    }
+    #content img:hover{
+        box-shadow: 3px 5px 3px 5px rgb(16, 2, 49);
+        width: 82%;
+        height: 72%;
+        border-radius: 2px;
+    }
+    #sectionHeader{
+        text-align: center;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 35px;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+  
+    .aboutHeading, .helpHeading{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Lobster', cursive;
+    }
+    /* #contentHelp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        height: 100vh;
+        width: 100%;
+        background-image:  url(img/Bedroom-Set-Furniture.jpg);
+        background-size: cover;
+        background-color: rgba(86, 83, 83, 05) ;
+        background-blend-mode: multiply;
+        padding: 10px;
+    }
+    
+    .imageHelpContent img{
+        width: 80%;
+        height: 100%;
+        border: solid #E4E4E4 ;
+        border-radius: 20px;
+    }
+    
+    #helpSubContainer{
+        margin: 0 auto;
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .imageHelpContent{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    .helpForm{
+        
+        width: 80%;
+        height: 100%;
+        align-self: center;
+        border: solid #E4E4E4 ;
+        border-radius: 20px;
+        background-color: rgb(156, 156, 156,0.5) ;
+    } */
+
+}

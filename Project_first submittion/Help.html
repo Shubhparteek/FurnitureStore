@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Help-Royal Furniture</title>
+</head>
+<body>
+    <div class="container">
+        <header id="mainHeader">
+            <div id="logo">
+                <p>Royal Furniture House</p>
+            </div>
+            <nav>
+                <div id="rightNav">
+                    <a href="Home.html"> HOME </a>
+                    <a href="AboutUS.html">ABOUT US</a>
+                    <a href="Help.html">HELP</a>
+                    <a href="#">SIGN IN/ REGISTER</a>
+                </div>
+                
+                <div id="leftNav">
+                    <a href="#" ><img src="img\cart3.png">CART </a>
+                    <a href="https://www.facebook.com/" target="_blank" ><img src="img\facebook.png" alt="Facebook"> </a>
+                    <a href="https://www.instagram.com/" target="_blank" ><img src="img\insta.png" alt="Instagram"> </a>
+                    <a href="https://twitter.com/?lang=en" target="_blank" ><img src="img\twitter.png" alt="Twitter"> </a>
+                </div>
+                
+            </nav>
+        </header>
+        <div id="contentHelp">
+           <p class="helpHeading">Please fill in the below fileds and someone from our team will conatct you shortly</p>
+           
+            <div id="helpSubContainer">
+                <div class="imageHelpContent">
+                    <img src="img\Bedroom-Set-Furniture.jpg">
+                </div>>
+                    <div class="helpForm">
+                        <form action="Thanks.html" id="contactus" method="post">
+                                <div class="formRows">
+                                    <label for="customerFirstName">First name: <input id="customerFirstName" type="text" name="name"  maxlength="50" > </label>       
+                                </div>
+                                <div class="formRows">
+                                    <label for="customerLastName">Last name: <input id="customerLastName" type="text" name="name"  maxlength="50" > </label>       
+                                </div>
+                                <div class="formRows">
+                                    <label for="customerPhone">Telephone<br> Number: <input id="customerPhone" type="text" name="telephone"  maxlength="10" > </label>   
+                                </div>
+                                <div class="formRows">
+                                    <label for="customerEmail">Email: <input id="customerEmail" type="email" name="email"  maxlength="100" > </label>   
+                                </div>
+                                <div  class="formRows">
+                                    <label for="contactUsMessage">Message:</label> 
+                                    <textarea id="contactUsMessage" name="contactMessage" placeholder="Please type in your message here" maxlength="800" rows="6" cols="55"></textarea>
+                                </div>
+            
+                                <div class="formRows">
+                                    <label for="prefferdMethod"> Please select prefered<br> contact method</label>
+                                    <select name="prefferdMethod" id="prefferdMethod">
+                                        <option value="">Please choose </option>
+                                        <option value="Phone">Phone</option>
+                                        <option value="Email">Email</option>
+                                    </select>
+                                </div>
+                                <div class="formRows">
+                                    <input type="submit">
+                                    <input type="reset"> <br>
+                                </div>
+                        </form>
+            
+                     </div>
+
+           </div>
+          
+        </div>
+
+        
+
+        <footer>
+            <p>
+                <a href="Home.html"> OUR STORY </a>
+                    <a href="#"> SUSTAINABILITY </a>
+                    <a href="#">MEDIA</a>
+            </p>
+           <p id="copyright">
+            <small>
+                Copyright &copy;  2022 by The Royal Furniture house.
+            </small>
+           </p> 
+        </footer>
+
+    </div>
+</body>
+</html>

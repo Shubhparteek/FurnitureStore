@@ -1,0 +1,7 @@
+
+//Clone with HTTPS
+https://gitlab.com/shubhdhami/finalprojectwebdesign.git
+
+//Clone with SSH
+
+git@gitlab.com:shubhdhami/finalprojectwebdesign.git
